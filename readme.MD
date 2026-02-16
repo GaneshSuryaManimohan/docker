@@ -1,8 +1,8 @@
 ## 📌 1️⃣ Docker Version & Info
 
-* `docker --version`    --> Docker version 29.2.1, build a5c7197
+* **`docker --version`**    --> Docker version 29.2.1, build a5c7197
 
-* `docker version`
+* **`docker version`**
 ```ini
 Client: Docker Engine - Community
  Version:           29.2.1
