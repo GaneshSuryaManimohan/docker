@@ -4,7 +4,7 @@ resource "aws_instance" "docker" {
         vpc_security_group_ids = ["sg-0bbdd2b154434fbfd"]
         user_data = file("install.sh")
     tags = {
-        Name = "Docket"
+        Name = "Docker"
         CreatedBy = "Terraform"
     }
 }
