@@ -158,6 +158,12 @@ Deleted: sha256:341bf0f3ce6c5277d6002cf6e1fb0319fa4252add24ab6a0e262e0056d313208
 
 * **`docker container prune`**      : Remove all stopped containers
 
+* **`docker network ls`**   : This command lists all Docker networks available on the system.
+
+* **`docker network create <network_name>`**   : This command creates a custom Docker network with desired name
+
+* **`docker run -d -p 80:80 --name frontend --network expense frontend:v1.0`** : This runs the frontend service in the background and makes it accessible through port 80.
+
 ---
 
 ## 📌 4️⃣ Logs & Debugging
