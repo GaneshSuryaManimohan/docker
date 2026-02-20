@@ -158,7 +158,7 @@ Deleted: sha256:341bf0f3ce6c5277d6002cf6e1fb0319fa4252add24ab6a0e262e0056d313208
 
 * **`docker container prune`**      : Remove all stopped containers
 
-* **`docker build -t <docker_image_name> .`** : Builds a Docker image, **.** Uses the current directory (where the Dockerfile exists)
+* **`docker build -t <docker_image_name> .`** : Builds a Docker image, **.** --> Uses the current directory (where the Dockerfile exists)
 
 * **`docker network ls`**   : This command lists all Docker networks available on the system.
 
